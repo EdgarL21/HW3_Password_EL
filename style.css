@@ -1,3 +1,10 @@
+color {
+  color: #116466, #2C3531, #D9B080, #FFCB9A, #D1E8E2;
+}
+colors {
+  color: #f7768e, #ff9e64, #e0af68, #9ece6a,  #73daca, #b4f9f8, #2ac3de, #7aa2f7, #bb9af7, #c0caf5, #a9b1d6, #9aa5ce, #565f89, #414868, #24283b, #1a1b26
+}
+
 *,
 *::before,
 *::after {
@@ -14,7 +21,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #9aa5ce;
 }
 
 .wrapper {
@@ -31,8 +38,8 @@ header {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
+  background-color: #c0caf5;
+  border-radius: 10px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
@@ -52,6 +59,11 @@ header {
 
 .card-body {
   min-height: 100px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .card-footer {
@@ -86,6 +98,10 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff222233;
 }
 
 button[disabled] {
